@@ -1,8 +1,10 @@
 import { BlogPosts } from 'app/components/posts'
-
+import { Navbar } from './components/nav'
 export default function Page() {
   return (
+    
     <section>
+      <Navbar />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
        STV INFOS
       </h1>
